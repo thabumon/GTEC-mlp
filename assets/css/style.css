@@ -533,6 +533,11 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(85px, 0%);
   }
 }
+
+
+.marq{
+  font-family: 'Manjari', sans-serif; 
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1416,7 +1421,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1435,11 +1440,11 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #008dcf;
+  color: #fff;
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #fff;
   text-align: center;
   padding-top: 30px;
 }
