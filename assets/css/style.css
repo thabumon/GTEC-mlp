@@ -564,6 +564,17 @@ section {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
+
+.section-title2 h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
 .section-title h2::after {
   content: "";
   width: 120px;
