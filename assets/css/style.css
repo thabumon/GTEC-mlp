@@ -586,6 +586,16 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+
+.section-title h2::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  display: inline-block;
+  background: #fe0000;
+  margin: 4px 10px;
+}
+
 .section-title2 h2 {
   font-size: 14px;
   font-weight: 500;
@@ -596,14 +606,7 @@ section {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
-.section-title h2::after {
-  content: "";
-  width: 100px;
-  height: 1px;
-  display: inline-block;
-  background: #fe0000;
-  margin: 4px 10px;
-}
+
 .section-title p {
   margin: 0;
   margin: 0;
@@ -843,17 +846,19 @@ section {
   background-color: #FFF;
 }
 
-.profile-card-4 .profile-name {
-  font-weight:bold;
+.profile-card-4 .profile-name h4 {
   position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   left: 0px;
   right: 0px;
   top: -40px;
-  color: #271cc3;
-  font-size: 17px;
-  text-shadow: 1px 1px #847a7a;
+  color: blue;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px  #fff;
 
 }
+
 
 .profile-card-4 .profile-name p {
   font-weight: 600;
@@ -924,7 +929,7 @@ button.learn-more {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #0d12fc;
+  background: #3f43fd;
   border-radius: 1.625rem;
  }
  
@@ -966,7 +971,7 @@ button.learn-more {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #0d12fc;
+  color: #3f43fd;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1388,13 +1393,14 @@ button.learn-more {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #3f43fd;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #3f43fd;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1644,12 +1650,13 @@ button.learn-more {
 #footer .copyright {
   border-top: 1px solid #fff;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 5px;
 }
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
+#footer .desicon {
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  vertical-align: middle;
+
   color: #fff;
 }
 @media (max-width: 575px) {

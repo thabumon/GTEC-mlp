@@ -45,3 +45,123 @@
       background: #007bff; }
     .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
       outline: none; }
+
+.card{
+  max-width: 300px;
+  min-height: 440px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+}
+.card h2{
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  color: #007bff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.card .card-head{
+  min-height:140px; 
+
+}
+.card-description{
+  min-height: 240px;
+}
+.card-description p{
+  color: #777;
+  font-size: 12px;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-description h5{
+  color: #777;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.card-description i{
+  padding-left: 10px;
+  vertical-align: middle;
+  position: relative;
+  color: #464646;
+}
+.card-description h6{
+  padding-left: 13px;
+  padding-bottom: 10px;
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.card-description a{
+  display: flex;
+padding-left: 60%;
+padding-top:5px ;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #aaaaaa;
+font-family: "Poppins", sans-serif;
+position: relative;
+}
+
+.card-btn{
+  min-height: 30px;
+  padding: 10px;
+  display: inline;
+  margin-bottom:10px;
+   margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.button-34 {
+  background: #008dcf;
+  border-radius: 25px;
+  box-shadow: #008dcf 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 6px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.card hr{
+  margin: 5px;
+  color: #ff0000;
+}
+
+.dept-tag{
+  color: #777;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom:0px ;
+  font-family: "Poppins", sans-serif;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
