@@ -833,6 +833,7 @@ section {
 
 .profile-card-4 img {
   transition: all 0.25s linear;
+  height: 130px;
 }
 
 .profile-card-4 .profile-content {
