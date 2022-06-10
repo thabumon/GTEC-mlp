@@ -1649,9 +1649,18 @@ button.learn-more {
 
 #footer .copyright {
   border-top: 1px solid #fff;
+;
   text-align: center;
   padding-top: 5px;
+
 }
+#footer .copyright a{
+  color: white;
+}
+#footer .copyright p{
+  display: inline;
+}
+
 #footer .desicon {
   text-align: -moz-center;
   text-align: -webkit-center;
