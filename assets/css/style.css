@@ -276,6 +276,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*
+ GTEC EDUCATION
+ */
+ @media only screen and (max-width: 480px) and (min-width: 320px)  {
+  #logo-4 img{
+    padding : 20px;
+  }
+  #logo-3 img{
+    padding: 15px;
+    }  
+  #logo-2 img{
+    padding: 10px;
+  }
+  #logo-1 img{
+    padding: 10px;
+  }  
+}
 /**
 * Mobile Navigation 
 */
