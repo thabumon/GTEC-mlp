@@ -1721,6 +1721,7 @@ button.learn-more {
   overflow: hidden;
   min-height: 265px;
   transition: 0.7s;
+  
 }
 
 .solution_cards_box .solution_card:hover {
