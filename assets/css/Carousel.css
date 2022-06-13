@@ -107,8 +107,8 @@
 }
 .card-description a{
   display: flex;
-padding-left: 60%;
-padding-top:5px ;
+padding-left: 80%;
+padding-top:15px ;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 2px;
@@ -121,7 +121,6 @@ position: relative;
 .card-btn{
   min-height: 30px;
   padding: 10px;
-  display: inline;
   margin-bottom:10px;
    margin-left: auto;
   margin-right: auto;
@@ -129,26 +128,50 @@ position: relative;
 }
 
 .button-34 {
-  background: #008dcf;
-  border-radius: 25px;
-  box-shadow: #008dcf 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 24px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid royalblue;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #007bff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+ }
+ 
+ .button-34:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #007bff;
+  z-index: -1;
+ }
+ 
+ .button-34:hover, button:focus {
+  color: white;
+ }
+ 
+ .button-34:hover:before, button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
   opacity: 1;
-  outline: 0 solid transparent;
-  padding: 6px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-}
+ }
+ 
+ .button-34:active {
+  transform: scale(0.9);
+ }
 
 .card hr{
   margin: 5px;
@@ -165,3 +188,4 @@ position: relative;
   margin-left: auto;
   margin-right: auto;
 }
+
