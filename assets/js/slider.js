@@ -9,17 +9,20 @@ $(document).ready(function()
             viewedSlider.owlCarousel(
             {
                 loop:true,
-                margin:30,
                 autoplay:true,
-                autoplayTimeout:6000,
+                autoplayTimeout:4000,
                 nav:false,
                 dots:false,
                 responsive:
                 {
                     0:{items:1},
-                    575:{items:2},
-                    768:{items:3},
+                    200:{items:2},
+                    375:{items:3},
+                    360:{items:3},
+                    390:{items:3},
+                    420:{items:4},
                     991:{items:4},
+                    1024:{items:5},
                     1199:{items:6}
                 }
             });
