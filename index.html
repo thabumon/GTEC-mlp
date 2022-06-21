@@ -8,7 +8,10 @@
   <title>GTEC Malappuram</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  
+  <!-- Ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
   <!-- Favicons -->
   <link href="assets/img/logos/g.png" rel="icon">
   <link href="assets/img/logos/gtec logo.png" rel="gtec">
@@ -1007,7 +1010,7 @@
           <div class="col-lg-4 col-md-6 " >
             <h4>Get in Touch</h4>
             <section class="contact" style="background-color:#010351; padding-top: 0%;">
-            <form action="../forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="submit-form" action="../forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1074,6 +1077,28 @@
     <script src="assets/js/owlcarousel/Carousel.js"></script>
 
     <script src="./assets/js/slider.js"></script>
+
+    <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbwtJ6slDbTttq46DgJTB5DqZNhH9mkIpNhPeZ2sZAl2MG0Vg4t_qnvUaPGau7znIQG1/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+
+
 
 </body>
 
