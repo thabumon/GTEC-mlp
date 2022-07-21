@@ -220,7 +220,7 @@ function Whatsapp() {
                 window.open(href = "https://wa.me/+918589083944?text=" + omuri);
             }
 
-function Whatsapp() {
+function Course() {
             var Name = $("#cname").val()
             var Phone = $("#cphone").val()
             var Email = $("#cemail").val()
