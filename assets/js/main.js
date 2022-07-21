@@ -207,3 +207,25 @@
 
 })()
 
+
+function Whatsapp() {
+            var Name = $("#wname").val()
+            var Phone = $("#wphone").val()
+            var Email = $("#wemail").val()
+            var Message = $("#wmessage").val()
+
+
+                var enquirymessage = " *New Enquiry*" + '\n' + "- Name: " + Name + '\n' + "- Contact: " + Phone + '\n' + "- Email: " + Email + '\n' + "- Message: " + Message;
+                var omuri = encodeURI(enquirymessage)
+                window.open(href = "https://wa.me/+918589083944?text=" + omuri);
+            }
+
+function Whatsapp() {
+            var Name = $("#cname").val()
+            var Phone = $("#cphone").val()
+            var Email = $("#cemail").val()
+            var Course = $("#ccourse").val()
+                  var coursereg = " *Course Registration*" + '\n' + "- Name: " + Name + '\n' + "- Contact: " + Phone + '\n' + "- Email: " + Email + '\n' + "- Course: " + Course;
+                  var omuri = encodeURI(coursereg)
+                  window.open(href = "https://wa.me/+918589083944?text=" + omuri);
+              }
