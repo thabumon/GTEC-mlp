@@ -229,3 +229,5 @@ function Course() {
                   var cregf = encodeURI(coursereg)
                   window.open(href = "https://wa.me/+918589083944?text=" + cregf);
               }
+
+
