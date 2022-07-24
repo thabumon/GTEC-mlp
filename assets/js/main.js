@@ -225,7 +225,8 @@ function Course() {
             var CPhone = $("#cphone").val()
             var CEmail = $("#cemail").val()
             var CCourse = $("#ccourse").val()
-                  var coursereg = " *Course Registration*" + '\n' + "- Name: " + CName + '\n' + "- Contact: " + CPhone + '\n' + "- Email: " + CEmail + '\n' + "- Course: " + CCourse;
+            var CLocation = $("#clocation").val()
+                  var coursereg = " *Course Enquiry*" + '\n' + "- Name: " + CName + '\n' + "- Contact: " + CPhone + '\n' + "- Email: " + CEmail + '\n' + "- Course: " + CCourse+ '\n' + "- Location: " + CLocation;
                   var cregf = encodeURI(coursereg)
                   window.open(href = "https://wa.me/+918589083944?text=" + cregf);
               }
