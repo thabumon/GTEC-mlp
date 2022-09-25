@@ -6,23 +6,23 @@ $(function() {
             items: 1,
             loop: true,
             stagePadding: 0,
-            margin: 20,
+            margin: 10,
             smartSpeed: 1000,
             autoplay: true,
             nav: true,
             dots: true,
-            pauseOnHover: false,
+            pauseOnHover: true,
             responsive:{
                 600:{
-                    margin: 20,
-                    nav: true,
-                  items: 2
-                },
-                1000:{
-                    margin: 20,
-                    stagePadding: 0,
+                    margin: 10,
                     nav: true,
                   items: 3
+                },
+                1000:{
+                    margin: 10,
+                    stagePadding: 0,
+                    nav: true,
+                  items: 4
                 }
             }
         });            
