@@ -16,13 +16,14 @@ $(function() {
                 600:{
                     margin: 10,
                     nav: true,
-                  items: 3
+                  items: 1
                 },
+
                 1000:{
                     margin: 10,
                     stagePadding: 0,
                     nav: true,
-                  items: 4
+                  items: 3
                 }
             }
         });            
