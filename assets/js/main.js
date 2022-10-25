@@ -217,7 +217,7 @@ function Whatsapp() {
 
                 var enquirymessage = " *New Enquiry*" + '\n' + "- Name: " + WName + '\n' + "- Contact: " + WPhone + '\n' + "- Email: " + WEmail + '\n' + "- Message: " + WMessage;
                 var omuri = encodeURI(enquirymessage)
-                window.open(href = "https://wa.me/+918589083944?text=" + omuri);
+                window.open(href = "https://wa.me/+918157912222?text=" + omuri);
             }
 
 function Course() {
@@ -228,7 +228,7 @@ function Course() {
             var CLocation = $("#clocation").val()
                   var coursereg = " *Course Enquiry*" + '\n' + "- Name: " + CName + '\n' + "- Contact: " + CPhone + '\n' + "- Email: " + CEmail + '\n' + "- Course: " + CCourse+ '\n' + "- Location: " + CLocation;
                   var cregf = encodeURI(coursereg)
-                  window.open(href = "https://wa.me/+918589083944?text=" + cregf);
+                  window.open(href = "https://wa.me/+918157912222?text=" + cregf);
               }
 
 
