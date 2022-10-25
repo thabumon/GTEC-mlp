@@ -1963,3 +1963,19 @@ text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
 
+.container0414 {  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 70% 20%;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "results sub-results"
+    "results certification";
+}
+
+.results { grid-area: results; }
+
+.sub-results { grid-area: sub-results; }
+
+.certification { grid-area: certification; }
+
