@@ -152,9 +152,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
 }
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
-  padding: 0;
+  padding: 10;
   line-height: 1;
   font-weight: 700;
 }
@@ -388,6 +388,18 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active, .navbar-mobile .dropdown .dropdown > .dropdown-active {
   display: block;
 }
+
+
+.sm-icons {
+  flex-direction: row;
+}
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item {
+    padding-right: 10rem;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
