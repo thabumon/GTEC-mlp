@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 .sm-icons {
   flex-direction:row;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 100px) {
   .sm-icons .nav-item {
     padding-right: 10rem;
   }
